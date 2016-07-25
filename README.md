@@ -5,12 +5,17 @@ This project was built on BURLAP2 (http://burlap.cs.brown.edu/). I included the 
 
 # Files
 The folder <b>code</b> contains the Java implementation (as an Eclipse project) and the BURLAP source files.
+
 The file <b>experiment_Results.zip</b> is the .csv files generated in our experiments for the paper.
+
 The file <b>generateGraphFromBurlapFile.m</b> is a MATLAB implementation to read the .csv files and output graphs.
 
 # How to use
 Import the project in the "code" folder to Eclipse, or import all files (including the burlap jar in the lib folder as library) in your preferred IDE.
-The experiments of our paper are replicated by executing the <b>main</b> method in the <b>ExperimentBRACIS2016</b> class (I recommend executing the VM with the parameters -Xms1024m -Xmx14024m). After executing this method, .csv files will be generated with the experiments results, that can be used to print graphs on matlab by executing the file <b>generateGraphFromBurlapFile.m</b>.
+
+The experiments of our paper are replicated by executing the <b>main</b> method in the <b>ExperimentBRACIS2016</b> class (I recommend executing the VM with the parameters -Xms1024m -Xmx14024m). 
+
+After executing this method, .csv files will be generated with the experiments results, that can be used to print graphs on matlab by executing the file <b>generateGraphFromBurlapFile.m</b>.
 
 We advise you to implement your own script to generate graphs, as the matlab file is not very well commented.
 
@@ -23,4 +28,5 @@ A huge amount of memory can be saved if the implementation of <b>DOOQPolicy</b> 
 # Contact
 
 For questions about the Multiagent domain or algorithms, please send an email to the first author.
+
 For questions about the Single-agent domain, please send an email to the second author.
