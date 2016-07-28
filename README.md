@@ -11,7 +11,10 @@ The file <b>experiment_Results.zip</b> is the .csv files generated in our experi
 The file <b>generateGraphFromBurlapFile.m</b> is a MATLAB implementation to read the .csv files and output graphs.
 
 # How to use
-Import the project in the "code" folder to Eclipse, or import all files (including the burlap jar in the lib folder as an library) in your preferred IDE.
+
+The folder <b>code</b> stores all implementations. <b>GoldMineMultiagent</b> is a project with the Multiagent implementations and <b>GoldMineSingleAgent</b> is the Single-agent implementation. 
+
+Import the project you want to use folder to Eclipse, or import all files (including the burlap jar in the lib folder as an library) in your preferred IDE.
 
 The experiments of our paper are replicated by executing the <b>main</b> method in the <b>ExperimentBRACIS2016</b> class (I recommend executing the VM with the parameters -Xms1024m -Xmx14024m). 
 
