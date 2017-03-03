@@ -1,6 +1,20 @@
 # Object-Oriented Reinforcement Learning in Cooperative Multiagent Domains
 This is the codification used in the BRACIS 2016 paper proposing the Multiagent Object-Oriented approach. You are free to use all or part of the codes here presented for any purpose, provided that the paper is properly cited and the original authors properly credited. All the files here shared come with no warranties.
 
+Paper bib entry: <br><br>
+<i>
+ @inproceedings{Silvaetal2016,<br>
+  author    = {Silva, Felipe Leno da and <br>
+  			  Ruben Glatt and <br>
+               Anna Helena Reali Costa},<br>
+  title     = {{Object-Oriented Reinforcement Learning in Cooperative Multiagent Domains}},<br>
+  booktitle = {Proceedings of the 5th Brazilian Conference on Intelligent Systems (BRACIS)},<br>
+  pages     = {19--24},<br>
+  year      = {2016}<br>
+ }
+ </i>
+ <br><br>
+
 This project was built on BURLAP2 (http://burlap.cs.brown.edu/). I included the Burlap version I used to avoid incompatibility issues, it is expected that you would need to change some lines on the code if you use a newer BURLAP version.
 
 # Files
