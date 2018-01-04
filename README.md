@@ -13,8 +13,13 @@ Paper bib entry: <br><br>
   year      = {2016}<br>
  }
  </i>
- <br><br>
+ <br>
+ 
+# New version
+This paper was extended to an IEEE Transactions on Cybernetics <a href=http://ieeexplore.ieee.org/document/8241448/>paper</a>. The older codification should not be used anymore. The new codification is available at: https://github.com/f-leno/DOO-Q_extension.
 
+
+# Instructions for Legacy Codification:
 This project was built on BURLAP2 (http://burlap.cs.brown.edu/). I included the Burlap version I used to avoid incompatibility issues, it is expected that you would need to change some lines on the code if you use a newer BURLAP version.
 
 # Files
